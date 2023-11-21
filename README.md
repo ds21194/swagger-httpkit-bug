@@ -1,4 +1,9 @@
 # Compojure-api 2.0.0 demo
+## bug demonstration:
+
+Running main.clj - using http-kit server, will show the following bug when entering the server on `http://localhost:8010/index.html`
+
+`500 : Receiver class linked.map.LinkedMap does not define or inherit an implementation of the resolved method 'abstract boolean isEmpty()' of interface java.util.Map. http://localhost:8010/api/v2`
 
 ## Usage
 
