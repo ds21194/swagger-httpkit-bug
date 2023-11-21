@@ -2,7 +2,8 @@
   :description "Compojure-api 2.0.0 (alpha) demo"
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [metosin/compojure-api "2.0.0-alpha27"]
-                 [manifold "0.1.8"]]
+                 [manifold "0.1.8"]
+                 [http-kit "2.6.0"]]
   :ring {:handler c2.handler/app, :async? true}
   :uberjar-name "server.jar"
-  :profiles {:dev {:plugins [[lein-ring "0.12.3"]]}})
+  :profiles {:dev {:plugins [[lein-ring "0.12.5"]]}})
